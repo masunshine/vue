@@ -1,0 +1,62 @@
+$color:#2ca2f9;
+$colorWhrat:#fff;
+.kg-box{
+    width: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    .kg-title{
+        width: 100%;
+        height: 3.5rem;
+        line-height: 3rem;
+        display: flex;
+        background-color:$color;
+        position: fixed;
+        z-index: 1000;
+        .kg-logo{
+            width:8rem;
+            height: 2rem;
+            line-height: 2rem;
+            background: url('https://m3ws.kugou.com/v3/static/images/index/logo.png') no-repeat;
+            display: inline-block;
+            background-size: 100%;
+            vertical-align: middle;
+            margin-left: 0.9rem;
+            margin-top: 0.9rem;
+        }
+        .kg-uploader{
+            display: inline-block;
+            vertical-align: middle;
+            span{
+                margin-left: 0.7rem;
+                margin-top: 0.7rem;
+                border:1px solid $colorWhrat;
+                // padding: 0.7rem;
+                width: 7rem;
+                height: 2rem;
+                line-height: 2rem;
+                border-radius: 0.3rem;
+                text-align: center;
+                color: $colorWhrat;
+                display: block;
+            }
+        }
+        .kg-search{
+            background: url('https://m3ws.kugou.com/v3/static/images/index/search.png') no-repeat;
+            width: 1.5rem;
+            height:1.5rem;
+            margin-top: 1rem;
+            vertical-align: middle;
+            background-size: 100%;
+            display: inline-block;
+            float: right;
+            right: 10px;
+            position: fixed;
+        }
+    }
+}
+.kg-content{
+    clear: both;
+    width: 100%;
+    display: flex;
+}

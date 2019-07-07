@@ -1,0 +1,53 @@
+.top-box{
+    width: 100%;
+    display: block;
+    margin-top: 0rem;
+    ul{
+        display: inline;
+        li{
+            width: 100%;
+            height:8rem;
+            list-style: none;
+            border-bottom: 1px solid #e5e5e5;
+            margin-left:1rem;
+            display: table;
+            .top-img{
+                width:6rem;
+                img{
+                    width: 100%;
+                    vertical-align: middle;
+                    margin-top:1rem;
+                }
+            }
+            .top-name{
+                width: 100%;
+                display: table-cell;
+                font-size: 18px;
+                color:#000;
+                padding-left: 1rem;
+                vertical-align: middle;
+            }
+            .top-cont{
+                color: #9b9b9b;
+                font-size: 0.8rem;
+                vertical-align: middle;
+                img{
+                    vertical-align: middle;
+                    width: 0.9rem;
+                }
+                span{
+                    margin-left:0.2rem;
+                    vertical-align: middle;
+                }
+            }
+            .top-icon{
+                width:3rem;
+                img{
+                    width: 1rem;
+                    vertical-align: middle;
+                    margin-top:1.5rem;
+                }
+            }
+        }
+    }
+}

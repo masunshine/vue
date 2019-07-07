@@ -1,0 +1,39 @@
+.muise-box{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0.4rem;
+    margin-bottom: 4.5rem;
+    .mint-swipe{
+        height: 9.6rem;
+        img{
+            width:100%;
+        }
+    }
+    .muise-list{
+        width: 100%;
+        height:4rem;
+        line-height: 4rem;
+        margin-left: 0.7rem;
+        position: relative;
+        display: table;
+        border-bottom:1px solid #e5e5e5;
+        font-size: 1rem;
+        .list-name{
+            width: 100%;
+            margin-right: 2.8rem;
+            height: 100%;
+            cursor: pointer;
+            display: table-cell;
+            line-height: 2rem;
+        }
+        .list-download{
+            right: 0rem;
+            width:2.5rem;
+            height: 100%;
+            cursor: pointer;
+            img{
+                width: 1.2rem;
+            }
+        }
+    }
+}

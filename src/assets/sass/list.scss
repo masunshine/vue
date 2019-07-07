@@ -1,0 +1,19 @@
+.kg-listcontent{
+    width: 100%;
+    display: inline-block;
+    .kg-tabs{
+        margin-top: 3.5rem;
+        z-index: 1000;
+        position: fixed;
+        width:100%;
+       border-bottom:1px solid #e5e5e5; 
+       box-sizing: border-box;
+        div{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+    .list-content{
+        margin-top:6.7rem;
+    }
+}
